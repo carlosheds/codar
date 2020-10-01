@@ -1,0 +1,123 @@
+:root {
+    --primary-red:#D6000D;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-size: 62.5%;
+    font-family: Roboto,sans-serif;
+}
+
+img {
+ width: 100px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 20px;
+
+}
+
+.logo {
+    font-size: 4rem;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.header .logo {
+    color: var(--primary-red);
+}
+
+.logo::after {
+    content: '.';
+    font-family: Roboto;
+}
+
+.header .logo::after{
+    color:black;
+}
+
+.header nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    list-style: none;
+    padding: 20px 0px;
+}
+
+.header nav ul li:last-child {
+    display: none;
+}
+
+.header nav ul li a {
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: black;
+}
+
+.btn {
+    background-color: var(--primary-red);
+    color: white;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 100;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.header nav ul li a.btn {
+    margin-left: 30px;
+    padding: 10px 60px;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+.section:first-child img {
+    width:220px;
+}
+
+.content.text {
+    margin:40px 0;
+}
+
+.section.list img {
+    width: 180px;
+}
+
+.section .content h2 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.section .content h1 {
+    color: var(--primary-red);
+    font-size: 3.7rem;
+    text-align: center;
+}
+
+.section.budget a.btn{
+    padding: 14px 70px;
+}
