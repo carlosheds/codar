@@ -261,7 +261,6 @@ img {
     max-width: 142px;
     line-height: 15px;
 }
-]
 .footer div.contact h3{
     padding-bottom: 20px;
 }
@@ -316,18 +315,137 @@ img {
 
     .container {
         padding: 0 100px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .section {
         flex-direction: row;
+        align-items: flex-start;
     }
 
     .section .image img {
         width: 400px;
+        
+    }
+
+    .section.text.budget .content{
+        min-width: 300px;
+        margin-bottom: 60px;
     }
 
     .section.text.budget .content h2{
         text-align: left;
     }
+
+    .section.text.budget img{
+        margin-right: 80px;
+    }
+
+    .section.list {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        width: 800px;
+    }
+
+
+    .section.list .content {
+        order: -1;
+        margin-left: 10px;
+    }
+
+    .section.list .content ul li{
+        font-size: 1.6rem;
+        line-height: 2;
+    }
+
+    .section.list .user-input {
+        display: block;
+    }
+
+    .section.list .user-input label{
+        font-size: 1.6rem;
+        display: block;
+        text-align: left;
+    }
+
+    .section.list .user-input input {
+        margin-right: 20px;
+        font-size: 1.3rem;
+    }
+
+    .section.list .user-input .btn {
+        padding: 15px 40px;
+        font-size: 1.2rem;
+    }
+
+    .section.feedback {
+        width: 800PX;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    .section.feedback .feedback-card {
+        height: 140px;
+        width: 390px;
+    }
+
+    .section.feedback .feedback-card span{
+        font-size: 1rem;
+    }
+
+    .section.feedback .feedback-card h3 {
+        font-size: 1.2rem;
+    }
+
+    .section.feedback .feedback-card h4 {
+        font-size: 1rem;
+    }
+
+    .footer {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+
+    .footer div h3 , .footer div * {
+        text-align: left;
+    }
+
+    footer.footer div .logo{
+        font-size: 3rem;
+        text-align: left;
+    }
+
+    .footer div h3 {
+        font-size: 1.7rem;
+        padding: 20px 0;
+    }
+
+    footer.footer .logo ~ span {
+        font-size: 1.3rem;
+    }
+
+    footer.footer div span {
+        font-size: 1.2rem;
+    }
+
+    footer.footer div span {
+        max-width: initial;
+    }
+
+    footer.footer div.contact span {
+        padding: 10px 0;
+        min-width: 160px;
+    }
+
+    .footer div.social-media ul li a i{
+        font-size: 2.4rem;
+    }
+
+
 
 }
