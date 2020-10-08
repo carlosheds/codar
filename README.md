@@ -81,5 +81,5 @@ Criado por  <a href="https://github.com/Lorenalgm">Lorena</a> :)
 
 ## Mobile.
 Resumindo, utiliizei ```display:flex;``` e ```flex-direction:column;``` em quase tudo (não vi necessidade do ```diplay:grid;```).<p>Tive dificuldades em utilizar o font-awesome, pois foi a primeira vez que utilizei. Foi difícil organizar os ícones, não acho que tenha ficado perfeito. Preciso me aprimorar nisso.
-## Media Query
+## Responsive
 Basicamente mudei o flex direction para ```flex-direction:row;``` e fui alterando os tamanhos das fontes e imagens.
