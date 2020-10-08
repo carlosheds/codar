@@ -77,6 +77,8 @@ Criado por  <a href="https://github.com/Lorenalgm">Lorena</a> :)
 </p>
 </details>
 
+# [Result](https://carlosheds.github.io/codar/)
+
 # Choices
 
 ## Mobile.
