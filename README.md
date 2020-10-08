@@ -1,3 +1,6 @@
+# Credits
+<details><summary>CLICK</summary>
+<p>
 <br />
 <p align="center">
   <a href="http://www.freepik.com">
@@ -71,3 +74,12 @@ Inicie seu projeto utilizando esse template no seu github como um repositório p
 Faça um print, gif ou vídeo e compartilhe o resultado no seu Linkedin<br>
 
 Criado por  <a href="https://github.com/Lorenalgm">Lorena</a> :)
+</p>
+</details>
+
+# Choices
+
+## Mobile.
+Resumindo, utiliizei ```display:flex;``` e ```flex-direction:column;``` em quase tudo (não vi necessidade do ```diplay:grid;```).<p>Tive dificuldades em utilizar o font-awesome, pois foi a primeira vez que utilizei. Foi difícil organizar os ícones, não acho que tenha ficado perfeito. Preciso me aprimorar nisso.
+## Media Query
+Basicamente mudei o flex direction para ```flex-direction:row;``` e fui alterando os tamanhos das fontes e imagens.
